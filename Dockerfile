@@ -1,4 +1,4 @@
-FROM ruby:2.6.4
+FROM ruby:2.7.0
 WORKDIR /app
 
 RUN apt-get update && \
