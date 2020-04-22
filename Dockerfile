@@ -1,10 +1,10 @@
-FROM ruby:2.6.4
+FROM ruby:2.7.1
 WORKDIR /app
 
 RUN apt-get update && \
     apt-get -y dist-upgrade && \
     apt-get clean && \
-    gem install bundler -v 1.17.2 && \
+    gem install bundler -v 2.1.4 && \
     rm -rf /var/lib/apt/lists/* /tmp/*
 
 ADD Gemfile* /app/
