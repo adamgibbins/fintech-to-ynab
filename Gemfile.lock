@@ -127,8 +127,10 @@ GEM
     parallel (1.19.1)
     parser (2.7.1.1)
       ast (~> 2.4.0)
-    puma (3.12.4)
-    puma (3.12.4-java)
+    puma (4.3.3)
+      nio4r (~> 2.0)
+    puma (4.3.3-java)
+      nio4r (~> 2.0)
     rack (2.2.2)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -253,6 +255,8 @@ GEM
       unf_ext
     unf (0.1.4-java)
     unf_ext (0.0.7.7)
+    unf_ext (0.0.7.7-x64-mingw32)
+    unf_ext (0.0.7.7-x86-mingw32)
     unicode-display_width (1.7.0)
     url (0.3.2)
     websocket-driver (0.7.1)
@@ -279,7 +283,7 @@ DEPENDENCIES
   dotenv-rails
   f2ynab!
   listen
-  puma (~> 3.7)
+  puma (~> 4.3)
   rails (~> 5.2.0)
   rails_12factor
   rspec-rails
