@@ -71,7 +71,7 @@ GEM
       tzinfo (~> 2.0)
       zeitwerk (~> 2.3)
     ast (2.4.1)
-    awesome_print (1.8.0)
+    awesome_print (1.9.2)
     builder (3.2.4)
     codecov (0.2.15)
       simplecov (>= 0.15, < 0.21)
