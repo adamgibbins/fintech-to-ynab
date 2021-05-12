@@ -8,7 +8,7 @@ git_source(:github) do |repo_name|
 end
 
 gem 'rails', '~> 6.1.0'
-gem 'puma', '~> 5.1'
+gem 'puma', '~> 5.3'
 
 gem 'f2ynab', github: 'fintech-to-ynab/f2ynab'
 # gem 'f2ynab', path: '../f2ynab'
